@@ -1,15 +1,26 @@
 import React from 'react';
-import { View } from 'react-native';
-
-import styles from '../Landing/styles';
+import { View, ScrollView } from 'react-native';
 
 import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
 
-import './styles';
+import styles from './styles';
 
 function TeacherList() {
   return (
-    <PageHeader title="Meus Proffys Favoritos" />
+    <View style={styles.container}>
+      <PageHeader title="Meus Proffys Favoritos" />
+
+      <ScrollView
+        style={styles.teacherList}
+        contentContainerStyle={{
+          paddingHorizontal: 16,
+          paddingBottom: 24,
+        }}
+      >
+        <TeacherItem />
+      </ScrollView>
+    </View>
   );
 }
 
