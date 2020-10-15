@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/AdamAugustinsky/proffy-mobile">
-    <img src=".images/logo.svg" alt="Logo" width="80" height="80">
+    <img src=".images/logo.svg" alt="Logo">
   </a>
 
   <h3 align="center">Proffy Mobile</h3>
